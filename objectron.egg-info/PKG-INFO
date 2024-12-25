@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: objectron
+Version: 1.0.1
+Summary: A powerful Python package for transforming and tracking object references
+Home-page: https://github.com/kairos-xx/objectron
+Author: Joao Lopes
+Author-email: Joao Lopes <joaoslopes@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 kairos
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/kairos-xx/objectron
+Keywords: object,transformation,tracking,proxy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Objectron
+
+Objectron is a Python module for transforming and tracking Python objects. It provides utilities for transforming Python objects to track their references and observe their operations. It's useful for debugging, testing, and monitoring object behavior.
+
+## Features
+
+- **Reference Transformation:** Transform objects to track and monitor their operations.
+- **Attribute Control:** Controlled access to object attributes with custom descriptors.
+- **Custom Exceptions:** Clear exception handling for transformation-related errors.
+- **Comprehensive Testing:** Unit tests covering built-in types and custom classes.
+
+## Installation
+
+You can install Objectron via pip:
+
+```bash
+pip install Objectron
+```
+
+## Usage
+
+See the [Documentation](/docs/wiki/index.md) for detailed usage examples.
+
+## Contributing
+
+Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
+
+## License
+
+This project is licensed under the MIT License.

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Objectron/__init__.py
+Objectron/controllers.py
+Objectron/exceptions.py
+Objectron/objectron.py
+Objectron/proxy.py
+Objectron/wrappers.py
+objectron.egg-info/PKG-INFO
+objectron.egg-info/SOURCES.txt
+objectron.egg-info/dependency_links.txt
+objectron.egg-info/top_level.txt
+tests/test_objectron.py
