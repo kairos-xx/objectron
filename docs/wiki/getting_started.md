@@ -11,7 +11,7 @@ pip install Objectron
 
 Or install it manually:
 
-git clone https://github.com/yourusername/Objectron.git
+git clone https://github.com/kairos-xx/Objectron.git
 cd Objectron
 pip install .
 ```
