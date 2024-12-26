@@ -8,9 +8,9 @@ You can install Objectron using `pip`:
 
 ```bash
 pip install Objectron
-
+```
 Or install it manually:
-
+```bash
 git clone https://github.com/kairos-xx/Objectron.git
 cd Objectron
 pip install .
