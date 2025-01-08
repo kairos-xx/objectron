@@ -1,0 +1,15 @@
+
+pytest>=7.0.0
+pytest
+rich
+replit==4.1.0
+black
+flake8
+build
+requests
+toml
+pyyaml
+coverage==7.3.2
+pytest-cov==4.1.0
+tree-interval
+pyparsing==3.2.0

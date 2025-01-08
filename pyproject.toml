@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "objectron"
+version = "1.0.4"
+description = "A powerful Python package for transforming and tracking object references"
+readme = "README.md"
+authors = [
+    {name = "Joao Lopes", email = "joaoslopes@gmail.com"}
+]
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+keywords = ["object", "transformation", "tracking", "proxy"]
+requires-python = ">=3.6"
+
+[project.urls]
+Homepage = "https://github.com/kairos-xx/objectron"
+Repository = "https://github.com/kairos-xx/objectron.git"
+
+[tool.ruff]
+[tool.ruff.lint]
+select = ['E', 'W', 'F', 'I', 'B', 'C4', 'ARG', 'SIM']
+ignore = ['W291', 'W292', 'W293', 'E203','E701']
+exclude = [
+    ".*",
+    "__pycache__",
+    "__init__.py",
+]
+
+[tool.flake8]
+max-line-length = 79
+ignore = ['E203', 'E701', "W503", "W504"]

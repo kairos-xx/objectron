@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: objectron
+Version: 1.0.4
+Summary: A powerful Python package for transforming and tracking object references
+Home-page: https://github.com/kairos-xx/objectron
+Author: Joao Lopes
+Author-email: Joao Lopes <joaoslopes@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 kairos
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/kairos-xx/objectron
+Project-URL: Repository, https://github.com/kairos-xx/objectron.git
+Keywords: object,transformation,tracking,proxy
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+<div align="center">
+
+<h1>Objectron</h1>
+<img src="resources/icon_raster.png" alt="Objectron Logo" width="150"/>
+<p><em>Advanced Python object transformation system with dynamic monitoring and deep reference management.</em></p>
+</div>
+
+## ✨ Features
+
+- 🎯 **Smart Access** - Transparent attribute access, dynamic creation, and path-based traversal
+- 🔄 **Deep Monitoring** - Comprehensive method and attribute tracking
+- 🛠 **Type Coverage** - Full support for built-in and custom types
+- 🔍 **Reference Control** - Automatic tracking with circular reference handling
+- 🎨 **Flexible Syntax** - Mix attribute and path-based access patterns
+
+## 📦 Quick Start
+
+```python
+from objectron import Objectron
+
+# Transform objects
+objectron = Objectron()
+config = objectron.transform({})
+
+# Dynamic attribute creation
+config.database.host = "0.0.0.0"
+config.database.port = 5432
+
+# Path-based access
+config["database.credentials.user"] = "admin"
+
+print(config.database.host)          # "0.0.0.0"
+print(config["database.port"])       # 5432
+```
+
+## 📖 Documentation
+
+See our [Documentation Wiki](docs/wiki/index.md) for:
+- Complete API Reference
+- Usage Examples
+- Implementation Details
+- Best Practices
+
+## 🤝 Contributing
+
+Contributions welcome! Please submit a Pull Request.
+
+## 📄 License
+
+MIT License - see [LICENSE](LICENSE) file
