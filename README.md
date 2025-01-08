@@ -36,7 +36,7 @@ print(config["database.port"])       # 5432
 
 ## 📖 Documentation
 
-See our [Documentation Wiki](wiki/Home) for:
+See our [Documentation Wiki](wiki) for:
 - Complete API Reference
 - Usage Examples
 - Implementation Details
