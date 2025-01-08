@@ -36,7 +36,7 @@ print(config["database.port"])       # 5432
 
 ## 📖 Documentation
 
-See our [Documentation Wiki](/wiki) for:
+See our [Documentation Wiki](https://github.com/kairos-xx/objectron/wiki) for:
 - Complete API Reference
 - Usage Examples
 - Implementation Details
