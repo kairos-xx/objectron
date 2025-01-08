@@ -1,9 +1,12 @@
-
 <div align="center">
 
 <h1>Objectron</h1>
-<img src="resources/icon_raster.png" alt="Objectron Logo" width="150"/>
+<img src="https://github.com/kairos-xx/objectron/raw/main/resources/icon_raster.png" alt="Objectron Logo" width="150"/>
 <p><em>Advanced Python object transformation system with dynamic monitoring and deep reference management.</em></p>
+
+  <a href="https://replit.com/@kairos/objectron">
+    <img src="https://github.com/kairos-xx/objectron/raw/main/resources/replit.png" alt="Try it on Replit" width="150"/>
+  </a>
 </div>
 
 ## ✨ Features
