@@ -37,6 +37,12 @@ print(config.database.host)          # "0.0.0.0"
 print(config["database.port"])       # 5432
 ```
 
+## 📦 Installation
+
+```bash
+pip install tree-interval
+```
+
 ## 📖 Documentation
 
 See our [Documentation Wiki](https://github.com/kairos-xx/objectron/wiki) for:
