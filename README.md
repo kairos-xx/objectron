@@ -40,7 +40,7 @@ print(config["database.port"])       # 5432
 ## 📦 Installation
 
 ```bash
-pip install tree-interval
+pip install objectron
 ```
 
 ## 📖 Documentation
